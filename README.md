@@ -124,4 +124,3 @@ Admin can manage products via admin panel
 🚀 Deployment on AWS / Vercel
 
 🔒 Improved authentication using JWT
-<img width="799" height="601" alt="Screenshot 2026-01-28 154807" src="https://github.com/user-attachments/assets/92499550-3ed3-4140-923c-fa14334c0e88" />
