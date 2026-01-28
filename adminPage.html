@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel | Sri Anandha Jewelers</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&family=Gravitas+One&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="adminPage.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+  <div class="nav">
+    <img src="./images/logo.png" alt="Sri Anandha Jewelers" class="logo">
+    <a href="index.html" class="back-btn">Back to Site</a>
+  </div>
+</div>
+
+<!-- ADMIN PANEL -->
+<div class="admin-container">
+
+  <h1 class="title">Admin Dashboard</h1>
+
+  <!-- ADD PRODUCT -->
+  <div class="card">
+    <h2>Add New Jewellery</h2>
+
+    <input type="text" id="name" placeholder="Product Name">
+    <input type="text" id="price" placeholder="Price (₹)">
+    <input type="text" id="image" placeholder="Image Path (images/xyz.png)">
+
+    <button onclick="addProduct()">Add Product</button>
+  </div>
+
+  <!-- PRODUCT LIST -->
+  <div class="card">
+    <h2>Product List</h2>
+    <div id="productList" class="product-list"></div>
+  </div>
+
+</div>
+</body>
+<script src="adminPageScipt.js"></script>
+
+
+</html>

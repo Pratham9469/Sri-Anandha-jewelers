@@ -1,0 +1,373 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+  .loginImage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  filter: brightness(30%);
+  z-index: -1;
+}
+
+.newPara{
+  font-family: "Rubik", sans-serif;
+  color: white;
+  margin-top: 5vh;
+  margin-bottom: 20px;
+  text-align: center;
+  z-index: 1;
+}
+.signUpContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 50px;
+  z-index: 1;
+}
+.SignUpPage{
+  width: 350px;
+  padding-bottom: 30px;
+  border: 1px solid rgba(159, 159, 159, 0.782);
+  border-radius: 20px;
+  background-color: #E4ECEE;
+  font-family: "Nunito", sans-serif;
+}
+
+.SignUpDetails{
+  width: 280px;
+  height: 100%;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.SignUpDetails input:not([type="checkbox"]):focus{
+  border: 1px solid #8CB4BC;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.SignUpDetails p:nth-child(1){
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0;
+  border-bottom: 1px solid #9cc4cb;
+  padding-bottom: 20px;
+}
+
+.SignUpDetails p:nth-child(2), :nth-child(4), :nth-child(6){
+  font-size: 15px;
+  margin-bottom: 4px;
+  margin-top: 12px;
+}
+
+.SignUpDetails input:nth-child(3), :nth-child(5), :nth-child(7){
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(201, 201, 201);
+  border-radius: 5px;
+}
+
+.consent span{
+  font-size: 12px;
+  width: 50px;
+  color: rgb(65, 65, 65);
+}
+
+.consent input{
+  margin-top: 15px;
+  accent-color: #044c58;
+}
+
+.consent{
+  cursor: pointer;
+}
+
+.SignUpDetails p:nth-child(9){
+  font-size: 12px;
+  color: rgb(65, 65, 65);
+  margin-left: 10px;
+  margin-top: 6px;
+}
+
+.SignUpDetails p:nth-child(10){
+  text-align: center;
+  font-size: 12px;
+  color: rgb(65, 65, 65);
+}
+
+.SignUpDetails button:nth-child(11){
+  color: #fff;
+  font-size: 20px;
+  width: 100%;
+  border-radius: 6px;
+  background-color: #044c58;
+  padding: 8px 0;
+  margin: 0 auto;
+  border: none;
+  line-height: 30px;
+  cursor: pointer;
+  transition: background-color 0.4s;
+  margin-top: 10px;
+}
+.SignUpDetails button:nth-child(11):hover{
+  background-color: #077e93;
+}
+.SignUpDetails p:nth-child(12){
+  font-size: 15px;
+  margin-bottom: 4px;
+  margin-top: 12px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.loginContainer{
+  font-family: Nunito;
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+.loginPage{
+  width: 50%;
+  max-width: 900px;
+  height: 400px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.loginLeft{
+  width: 50%;
+  height: 40%;
+  margin: 20px;
+}
+.loginLeft img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 15px;
+}
+
+.leftDownImage{
+  width: 100%;
+  height: 110%;
+  display: flex;
+}
+.leftDownImage img{
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.leftDownImage img:nth-child(2){
+  margin-left: 10px;
+}
+
+.loginRight{
+  width: 50%;
+  height: 85%;
+  margin: 20px;
+  background-color: #E4ECEE;
+  border-radius: 15px;
+}
+
+.RightDet{
+  width: 80%;
+  height: 90%;
+  margin: 16px 35px;
+}
+
+.RightDet h2:nth-child(1){
+  margin-top: 8px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #9cc4cb;
+  text-align: center;
+}
+
+.RightDet p:nth-child(2){
+  font-size: 12px;
+  color: rgb(65, 65, 65);
+  margin-top: 10px;
+  margin-left: 6px;
+  margin-bottom: 8px;
+}
+
+.RightDet input:nth-child(3){
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(201, 201, 201);
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.lower2{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+
+.lower2 button{
+  color: #fff;
+  font-size: 20px;
+  width: 100%;
+  border-radius: 6px;
+  background-color: #044c58;
+  padding: 8px 0;
+  margin: 0 auto;
+  border: none;
+  line-height: 30px;
+  cursor: pointer;
+  transition: background-color 0.4s;
+  margin-top: 10px;
+}
+
+.lower2 button:hover{
+  background-color: #077e93;
+}
+
+.lower2 p{
+  cursor: pointer;
+}
+
+.RightDet input:not([type="checkbox"]):focus{
+  border: 1px solid #8CB4BC;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.newPara2{
+  font-family: "Rubik", sans-serif;
+  color: white;
+  margin-top: 5vh;
+  margin-bottom: 20px;
+  text-align: center;
+  z-index: 1;
+}
+
+@media (max-width: 600px) {
+  .newPara h1, .newPara2 h1 {
+    font-size: 24px;
+  }
+
+  .SignUpPage {
+    width: 90%;
+    margin: 0 5%;
+  }
+
+  .SignUpDetails {
+    width: 90%;
+    margin: 30px auto;
+  }
+
+  .SignUpDetails p:nth-child(1) {
+    font-size: 24px;
+    padding-bottom: 15px;
+  }
+
+  .SignUpDetails p {
+    font-size: 14px;
+  }
+
+  .SignUpDetails button {
+    font-size: 18px;
+    padding: 10px 0;
+  }
+
+  .loginPage {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .loginLeft, .loginRight {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .loginLeft {
+    height: 200px;
+  }
+
+  .leftDownImage {
+    height: 100px;
+    margin-top: 10px;
+  }
+
+  .RightDet {
+    width: 90%;
+    margin: 15px auto;
+  }
+
+  .RightDet h2 {
+    font-size: 22px;
+  }
+
+  .RightDet p {
+    font-size: 12px;
+  }
+
+  .lower2 button {
+    font-size: 18px;
+    padding: 10px 0;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .newPara h1, .newPara2 h1 {
+    font-size: 30px;
+  }
+
+  .SignUpPage {
+    width: 60%;
+  }
+
+  .SignUpDetails {
+    width: 80%;
+    margin: 30px auto;
+  }
+
+  .SignUpDetails p:nth-child(1) {
+    font-size: 26px;
+  }
+
+  .loginPage {
+    width: 80%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .loginLeft, .loginRight {
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  .loginLeft {
+    height: 250px;
+  }
+
+  .leftDownImage {
+    height: 120px;
+  }
+
+  .RightDet {
+    width: 80%;
+    margin: 20px auto;
+  }
+}

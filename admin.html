@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <img class="adminImage" src="/images/image4.png">
+
+  <div class="newPara" id="adminTitle">
+    <h1>Create New Admin Account</h1>
+  </div>
+
+  <div class="adminContainer" id="adminSection">
+    <div class="adminPage">
+    <div class="adminDetails">
+      <p>Let's Get Started!</p>
+      <p>Enter Name</p>
+      <input placeholder="Enter First Name">
+      <p>Phone Number</p>
+      <input placeholder="Enter Phone Number" type="text">
+
+      <p>Email Address</p>
+      <input placeholder="Enter Email">
+
+      <p>Enter Password</p>
+      <input placeholder="Enter password">
+
+      <button type="submit">Sign up</button>
+      <p class="NotRegister">Have an account? Login</p>
+    </div>
+  </div>
+  </div>
+
+
+
+  <div class="newPara2" id="adminTitleLogin" style="display: none;">
+    <h1>Admin Login</h1>
+  </div>
+
+  <div class="adminContainer2" id="adminSection2", style="display: none;">
+    <div class="adminPage2">
+      <div class="adminLeft">
+        <img src="/images/image5.jpg">
+
+        <div class="adminleftDownImage">
+          <img src="/images/image2.jpg">
+          <img src="/images/image3.jpg">
+        </div>
+      </div>
+
+      <div class="adminRight">
+        <div class="RightDet">
+          <h2>Welcome Back!</h2>
+          <p>Email Address</p>
+          <input id="adminEmail" placeholder="Enter Email">
+          <p>Enter Password</p>
+          <input id="adminPassword" placeholder="Enter password" type="password">
+          <p>Phone Number</p>
+          <input id="adminPhone" placeholder="Enter phone number" type="tel">
+          <div class="lower2">
+            <button onclick="adminLogin()">Login</button>
+            <p id="loginError" style="color:red; margin-top:10px;"></p>
+            <p class="goSignup">Don't have an account? Register</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+
+<script src="adminScript.js"></script>
+</html>

@@ -1,0 +1,344 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+.adminImage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  filter: brightness(30%);
+  z-index: -1;
+}
+
+.newPara{
+  font-family: "Rubik", sans-serif;
+  color: white;
+  margin-top: 5vh;
+  margin-bottom: 20px;
+  text-align: center;
+  z-index: 1;
+}
+.adminContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 50px;
+  z-index: 1;
+}
+.adminPage{
+  width: 350px;
+  padding-bottom: 30px;
+  border: 1px solid rgba(159, 159, 159, 0.782);
+  border-radius: 20px;
+  background-color: #E4ECEE;
+  font-family: "Nunito", sans-serif;
+}
+
+.adminDetails{
+  width: 280px;
+  height: 100%;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.adminDetails p:nth-child(1){
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0;
+  border-bottom: 1px solid #9cc4cb;
+  padding-bottom: 20px;
+}
+
+.adminDetails p:nth-child(2), :nth-child(4), :nth-child(6), :nth-child(8){
+  font-size: 15px;
+  margin-bottom: 4px;
+  margin-top: 12px;
+}
+
+.adminDetails input:nth-child(3), :nth-child(5), :nth-child(7), :nth-child(9){
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(201, 201, 201);
+  border-radius: 5px;
+}
+
+.adminDetails button:nth-child(10){
+  color: #fff;
+  font-size: 20px;
+  width: 100%;
+  border-radius: 6px;
+  background-color: #044c58;
+  padding: 8px 0;
+  margin: 0 auto;
+  border: none;
+  line-height: 30px;
+  cursor: pointer;
+  transition: background-color 0.4s;
+  margin-top: 10px;
+}
+.adminDetails button:nth-child(10):hover{
+  background-color: #077e93;
+}
+
+.adminDetails p:nth-child(11){
+  font-size: 15px;
+  margin-bottom: 4px;
+  margin-top: 12px;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+.adminContainer2{
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+.adminPage2{
+  width: 50%;
+  max-width: 900px;
+  height: 400px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.adminLeft{
+  width: 50%;
+  height: 40%;
+  margin: 20px;
+}
+.adminLeft img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 15px;
+}
+
+.adminleftDownImage{
+  width: 100%;
+  height: 110%;
+  display: flex;
+}
+.adminleftDownImage img{
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.adminleftDownImage img:nth-child(2){
+  margin-left: 10px;
+}
+
+.adminRight{
+  width: 50%;
+  height: 90%;
+  margin: 20px;
+  background-color: #E4ECEE;
+  border-radius: 15px;
+}
+
+.RightDet{
+  width: 80%;
+  height: 90%;
+  margin: 16px 35px;
+}
+
+.RightDet h2:nth-child(1){
+  margin-top: 8px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #9cc4cb;
+  text-align: center;
+}
+
+.RightDet p {
+  font-size: 14px;
+  color: #333;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.RightDet input:nth-child(3),
+.RightDet input:nth-child(5),
+.RightDet input:nth-child(7) {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgb(201, 201, 201);
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-family: inherit;
+}
+
+.adminPage2 {
+  height: auto;
+  min-height: 450px;
+  padding-bottom: 20px;
+}
+
+.lower2{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+
+.lower2 button{
+  color: #fff;
+  font-size: 20px;
+  width: 100%;
+  border-radius: 6px;
+  background-color: #044c58;
+  padding: 8px 0;
+  margin: 0 auto;
+  border: none;
+  line-height: 30px;
+  cursor: pointer;
+  transition: background-color 0.4s;
+  margin-top: 10px;
+}
+
+.lower2 button:hover{
+  background-color: #077e93;
+}
+
+.lower2 p{
+  cursor: pointer;
+}
+
+.newPara2{
+  font-family: "Nunito", sans-serif;
+  color: white;
+  margin-top: 5vh;
+  margin-bottom: 20px;
+  text-align: center;
+  z-index: 1;
+}
+
+@media (max-width: 600px) {
+  .newPara h1, .newPara2 h1 {
+    font-size: 24px;
+  }
+
+  .adminPage {
+    width: 90%;
+    margin: 0 5%;
+  }
+
+  .adminDetails {
+    width: 90%;
+    margin: 30px auto;
+  }
+
+  .adminDetails p:nth-child(1) {
+    font-size: 24px;
+    padding-bottom: 15px;
+  }
+
+  .adminDetails p {
+    font-size: 14px;
+  }
+
+  .adminDetails button {
+    font-size: 18px;
+    padding: 10px 0;
+  }
+
+  .adminPage2 {
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .adminLeft, .adminRight {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .adminLeft {
+    height: 200px;
+  }
+
+  .adminleftDownImage {
+    height: 100px;
+    margin-top: 10px;
+  }
+
+  .RightDet {
+    width: 90%;
+    margin: 15px auto;
+  }
+
+  .RightDet h2 {
+    font-size: 22px;
+  }
+
+  .RightDet p {
+    font-size: 12px;
+  }
+
+  .lower2 button {
+    font-size: 18px;
+    padding: 10px 0;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .newPara h1, .newPara2 h1 {
+    font-size: 30px;
+  }
+
+  .adminPage {
+    width: 60%;
+  }
+
+  .adminDetails {
+    width: 80%;
+    margin: 30px auto;
+  }
+
+  .adminDetails p:nth-child(1) {
+    font-size: 26px;
+  }
+
+  .adminPage2 {
+    width: 80%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .adminLeft, .adminRight {
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  .adminLeft {
+    height: 250px;
+  }
+
+  .adminleftDownImage {
+    height: 120px;
+  }
+
+  .RightDet {
+    width: 80%;
+    margin: 20px auto;
+  }
+}

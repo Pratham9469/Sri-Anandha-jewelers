@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="LoginStyle.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+  <img class="loginImage" src="/images/image4.png" id="loginImage">
+
+  <div class="newPara" id="signupTitle">
+    <h1>Create New Customer Account</h1>
+  </div>
+
+  <div class="signUpContainer" id="signupSection">
+    <div class="SignUpPage">
+    <div class="SignUpDetails">
+      <p>Let's Get Started!</p>
+      <p>First Name</p>
+      <input placeholder="Enter First Name">
+      <p>Last Name</p>
+      <input placeholder="Enter Last Name">
+      <p>Phone Number</p>
+      <input placeholder="Enter Phone Number" type="text">
+
+      <label class="consent">
+      <input type="checkbox">
+      <span>
+        I consent to receive promotional SMS, emails,<br>
+        and other communications.
+      </span>
+    </label>
+      <p>By verifying, you agree to our T&C and Privacy</p>
+      <p>Policy</p>
+      <button type="submit">Sign up</button>
+      <p class="NotRegister">Have an account? Login</p>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="newPara2" id="loginTitle" style="display: none;">
+    <h1>Customer Login</h1>
+  </div>
+
+  <div class="loginContainer" id="loginSection", style="display: none;">
+    <div class="loginPage">
+      <div class="loginLeft">
+        <img src="/images/image5.jpg">
+
+        <div class="leftDownImage">
+          <img src="/images/image2.jpg">
+          <img src="/images/image3.jpg">
+        </div>
+      </div>
+
+      <div class="loginRight">
+        <div class="RightDet">
+          <h2>Welcome Back!</h2>
+          <p>Phone Number</p>
+          <input placeholder="Enter phone number" type="tel">
+          <div class="lower2">
+            <button>Login</button>
+            <p class="goSignup">Don't have an account? Register</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script src="loginScript.js"></script>
+
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="cart.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="navbar">
+    <nav class="nav">
+      <a href="index.html">
+        <img src="./images/logo.png" alt="Sri Anandha Jewelers" class="image">
+      </a>
+      <ul class="right_side">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="wishlist.html">Wishlist</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+
+        <li class="user-menu">
+          <a href="#" class="user-icon"><i class="fa-regular fa-user"></i></a>
+        <ul class="dropdown">
+          <li><a href="Login.html">Login/Signup</a></li>
+          <li><a href="Admin.html">Admin Page</a></li>
+        </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <h1 class="addToCart">Add to Cart</h1>
+
+  <div class="fullCart">
+    <img src="images/emptyCart.png">
+    <div class="noCartBtn">
+      <img src="images/emptyCart2.png">
+      <a href="index.html">
+        <button class="cartBtn">Add products</button>
+      </a>
+    </div>
+  </div>
+
+  <div class="main-cart-wrapper">
+    <div class="cards-container"></div>
+
+  <div class="checkout-container">
+    <div class="checkout">
+      <h3>Order Summary</h3>
+
+
+      <div class="coupon-container">
+        <h4>Apply Coupon code / Promo Code</h4>
+        <input placeholder="Enter coupon code" class="inputCoupon"><span><button class="apply-btn">Apply</button></span>
+        <p class="promoCode">Have coupon? if not, go for quiz.👇</p>
+        <button class="quiz-btn"><a href="quiz.html">Quiz</a></button>
+      </div>
+
+      <div class="shopping-container">
+
+      <div class="shopping-details">
+        <p>Sub Total</p>
+        <p id="subTotal">₹ 0</p>
+      </div>
+
+      <div class="shopping-details">
+        <p>Product Discount</p>
+        <p id="discount">- ₹ 0</p>
+      </div>
+
+      <div class="shopping-details">
+        <p>Delivery Charge</p>
+        <p class="free">Free</p>
+      </div>
+
+      <div class="shopping-details">
+        <p class="bold1">Total (Incl of all Taxes)</p>
+        <p class="bold2" id="total">₹ 0</p>
+      </div>
+
+      <div class="shopping-details">
+        <p class="bold3">You Save</p>
+        <p class="bold4" id="save">+ ₹ 0</p>
+      </div>
+      </div>
+
+      <div class="confirm-order">
+        <button class="confirm-btn">Confirm Order</button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+</body>
+<script src="https://kit.fontawesome.com/5bc145c9cb.js" crossorigin="anonymous"></script>
+<script src="cart.js"></script>
+</html>

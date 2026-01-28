@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sri Anandha Jewelers</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+</head>
+<body>
+<div class="navbar">
+  <nav class="nav">
+    <a href="index.html">
+      <img src="./images/logo.png" alt="Sri Anandha Jewelers" class="image">
+    </a>
+    <div class="hamburger">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+    <ul class="right_side">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="wishlist.html">Wishlist</a></li>
+      <li><a href="quiz.html">Quiz</a></li>
+      <li class="cart-btn"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i><span></span></a></li>
+      <li class="user-menu">
+        <a href="#" class="user-icon" id="userGreeting">
+          <i class="fa-regular fa-user"></i>
+        </a>
+        <ul class="dropdown">
+          <li><a href="Login.html">Login/Signup</a></li>
+          <li><a href="Admin.html">Admin Page</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <div class="mobile-nav">
+    <ul class="mobile-right_side">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="wishlist.html">Wishlist</a></li>
+      <li><a href="quiz.html">Quiz</a></li>
+      <li class="cart-btn"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i><span></span></a></li>
+      <li class="user-menu">
+        <a href="#" class="user-icon" id="userGreeting">
+          <i class="fa-regular fa-user"></i>
+        </a>
+        <ul class="dropdown">
+          <li><a href="Login.html">Login/Signup</a></li>
+          <li><a href="Admin.html">Admin Page</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="swiper mySwiper">
+<div class="swiper-wrapper">
+  <div class="swiper-slide"><img src="/images/1748948829974.jpeg"></div>
+  <div class="swiper-slide"><img src="/images/1748949138668.jpeg" alt=""></div>
+  <div class="swiper-slide"><img src="/images/1748949284491.jpeg"></div>
+  <div class="swiper-slide"><img src="/images/1748950808975.jpeg"></div>
+  <div class="swiper-slide"><img src="/images/1748952558303.jpeg"></div>
+</div>
+<div class="swiper-pagination"></div>
+</div>
+<div class="some-text">
+<h1>Explore Our Exclusive Jewelry Collection</h1>
+</div>
+<div class="some-text2">
+<p>Discover exquisitely handcrafted gold jewelry inspired by tradition, elegance, and heritage.<br>
+<span>Designed to make your special moments unforgettable.</span></p>
+</div>
+<div class="page3">
+<div class="cards-container" id="dynamicProductContainer">
+<!-- Card 1 -->
+<div class="fullCard">
+  <div class="card">
+    <img src="/images/1.jpeg">
+    <div class="card-detais">
+      <p class="detail">Sparkling Floral Sterling Silver...</p>
+      <p class="rate">₹20,000 <span>(2% off)</span></p>
+      <p class="delivery">FREE delivery <span class="delivery-date">Mon, 26 Jan</span></p>
+      <div class="lower">
+        <button class="addCart">Add to Cart</button>
+        <i class="fa-regular fa-heart wishlist-btn"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Card 2 (copy only this block) -->
+<div class="fullCard">
+  <div class="card">
+    <img src="/images/2.jpeg">
+    <div class="card-detais">
+      <p class="detail">Elegant Gold-Toned Bangle with...</p>
+      <p class="rate">₹35,000 <span>(1% off)</span></p>
+      <p class="delivery">FREE delivery <span class="delivery-date">Wed, 28 Jan</span></p>
+      <div class="lower">
+        <button class="addCart">Add to Cart</button>
+        <i class="fa-regular fa-heart wishlist-btn"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="fullCard">
+  <div class="card">
+    <img src="/images/3.jpeg">
+    <div class="card-detais">
+      <p class="detail">Dazzling American Diamond Stu...</p>
+      <p class="rate">₹34,000 <span>(2% off)</span></p>
+      <p class="delivery">FREE delivery <span class="delivery-date">Fri, 30 Jan</span></p>
+      <div class="lower">
+        <button class="addCart">Add to Cart</button>
+        <i class="fa-regular fa-heart wishlist-btn"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="fullCard">
+  <div class="card">
+    <img src="/images/4.jpeg">
+    <div class="card-detais">
+      <p class="detail">Elegant Gold-Plated Adjustable...</p>
+      <p class="rate">₹21,000 <span>(6% off)</span></p>
+      <p class="delivery">FREE delivery <span class="delivery-date">Thu, 29 Jan</span></p>
+      <div class="lower">
+        <button class="addCart">Add to Cart</button>
+        <i class="fa-regular fa-heart wishlist-btn"></i>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="fullCard">
+  <div class="card">
+    <img src="/images/5.jpeg">
+    <div class="card-detais">
+      <p class="detail">Elegant Gold and Pearl Floral D...</p>
+      <p class="rate">₹39,000 <span>(4% off)</span></p>
+      <p class="delivery">FREE delivery <span class="delivery-date">Tue, 27 Jan</span></p>
+      <div class="lower">
+        <button class="addCart">Add to Cart</button>
+        <i class="fa-regular fa-heart wishlist-btn"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="fullCard">
+  <div class="card">
+    <img src="/images/6.jpeg">
+    <div class="card-detais">
+      <p class="detail">Rose Gold Polish with Stunning...</p>
+      <p class="rate">₹52,000 <span>(3% off)</span></p>
+      <p class="delivery">FREE delivery <span class="delivery-date">Thu, 29 Jan</span></p>
+      <div class="lower">
+        <button class="addCart">Add to Cart</button>
+        <i class="fa-regular fa-heart wishlist-btn"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="fullCard">
+  <div class="card">
+    <img src="/images/7.jpeg">
+    <div class="card-detais">
+      <p class="detail">Exquisite Kundan and Imitation...</p>
+      <p class="rate">₹36,000 <span>(1% off)</span></p>
+      <p class="delivery">FREE delivery <span class="delivery-date">Thu, 22 Jan</span></p>
+      <div class="lower">
+        <button class="addCart">Add to Cart</button>
+        <i class="fa-regular fa-heart wishlist-btn"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="fullCard">
+  <div class="card">
+    <img src="/images/8.jpeg">
+    <div class="card-detais">
+      <p class="detail">Minimalist Gold-Toned Beaded...</p>
+      <p class="rate">₹38,000 <span>(1% off)</span></p>
+      <p class="delivery">FREE delivery <span class="delivery-date">Sun, 25 Jan</span></p>
+      <div class="lower">
+        <button class="addCart">Add to Cart</button>
+        <i class="fa-regular fa-heart wishlist-btn"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="fullCard">
+  <div class="card">
+    <img src="/images/9.jpeg">
+    <div class="card-detais">
+      <p class="detail">Rhodium Plated Premium Mix C...</p>
+      <p class="rate">₹45,000 <span>(2% off)</span></p>
+      <p class="delivery">FREE delivery <span class="delivery-date">Fri, 23 Jan</span></p>
+      <div class="lower">
+        <button class="addCart">Add to Cart</button>
+        <i class="fa-regular fa-heart wishlist-btn"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="fullCard">
+  <div class="card">
+    <img src="/images/10.jpeg">
+    <div class="card-detais">
+      <p class="detail">Glamorous gold choker ensembl...</p>
+      <p class="rate">₹32,000 <span>(3% off)</span></p>
+      <p class="delivery">FREE delivery <span class="delivery-date">Fri, 23 Jan</span></p>
+      <div class="lower">
+        <button class="addCart">Add to Cart</button>
+        <i class="fa-regular fa-heart wishlist-btn"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="fullCard">
+  <div class="card">
+    <img src="/images/11.jpeg">
+    <div class="card-detais">
+      <p class="detail">Luxury Gold Plated Handcrafted...</p>
+      <p class="rate">₹30,000 <span>(4% off)</span></p>
+      <p class="delivery">FREE delivery <span class="delivery-date">Sat, 31 Jan</span></p>
+      <div class="lower">
+        <button class="addCart">Add to Cart</button>
+        <i class="fa-regular fa-heart wishlist-btn"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="fullCard">
+  <div class="card">
+    <img src="/images/12.jpeg">
+    <div class="card-detais">
+      <p class="detail">Silver Plated AD Cocktail Neck...</p>
+      <p class="rate">₹42,000 <span>(1% off)</span></p>
+      <p class="delivery">FREE delivery <span class="delivery-date">Sat, 24 Jan</span></p>
+      <div class="lower">
+        <button class="addCart">Add to Cart</button>
+        <i class="fa-regular fa-heart wishlist-btn"></i>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="video">
+<video autoplay loop muted src="/video/video1.mp4"></video>
+</div>
+
+</div>
+
+<div class="page4">
+<div class="footer">
+<img class="design" src="/images/design.png">
+<h1>What Our Customers Say</h1>
+</div>
+
+
+<div class="reviews">
+<div class="reviews-wrapper">
+
+<div class="review1">
+  <div class="user">
+    <img src="/images/woman.png">
+    <h3>Priys S.</h3>
+  </div>
+  <p>Absolutely loved the diamond necklace I ordered. The craftsmanship is outstanding, the detailing is very fine, and the shine is exactly what I was looking for. It truly feels like a luxury piece and looks even more beautiful when worn.</p>
+</div>
+
+<div class="review1">
+  <div class="user">
+    <img src="/images/man.png">
+    <h3>Rahul K.</h3>
+  </div>
+  <p>From browsing the collection to receiving my order, the entire experience was smooth and professional. The jewellery quality exceeded my expectations, delivery was quick, and the packaging felt elegant and secure.</p>
+</div>
+
+<div class="review1">
+  <div class="user">
+    <img src="/images/woman.png">
+    <h3>Sneha P.</h3>
+  </div>
+  <p>I ordered a bridal jewellery set and it was simply perfect. Every piece was beautifully crafted and matched my wedding outfit perfectly. I received endless compliments from friends and family on my special day.</p>
+</div>
+
+<div class="review1">
+  <div class="user">
+    <img src="/images/woman.png">
+    <h3>Anjali M.</h3>
+  </div>
+  <p>The designs are elegant, modern, and timeless. The quality of the materials and finishing is excellent, and the pricing feels fair for such premium jewellery. This has become my go-to store for special occasions.</p>
+</div>
+
+<div class="review1">
+  <div class="user">
+    <img src="/images/man.png">
+    <h3>Rohan T.</h3>
+  </div>
+  <p>I purchased a ring and was impressed by the attention to detail and overall finish. It looks classy, feels comfortable to wear, and I constantly receive compliments whenever I wear it. Highly recommended.</p>
+</div>
+
+<div class="review1">
+  <div class="user">
+    <img src="/images/woman.png">
+    <h3>Priys S.</h3>
+  </div>
+  <p>Absolutely loved the diamond necklace I ordered. The craftsmanship is outstanding, the detailing is very fine, and the shine is exactly what I was looking for. It truly feels like a luxury piece and looks even more beautiful when worn.</p>
+</div>
+
+<div class="review1">
+  <div class="user">
+    <img src="/images/man.png">
+    <h3>Rahul K.</h3>
+  </div>
+  <p>From browsing the collection to receiving my order, the entire experience was smooth and professional. The jewellery quality exceeded my expectations, delivery was quick, and the packaging felt elegant and secure.</p>
+</div>
+
+<div class="review1">
+  <div class="user">
+    <img src="/images/woman.png">
+    <h3>Sneha P.</h3>
+  </div>
+  <p>I ordered a bridal jewellery set and it was simply perfect. Every piece was beautifully crafted and matched my wedding outfit perfectly. I received endless compliments from friends and family on my special day.</p>
+</div>
+
+<div class="review1">
+  <div class="user">
+    <img src="/images/woman.png">
+    <h3>Anjali M.</h3>
+  </div>
+  <p>The designs are elegant, modern, and timeless. The quality of the materials and finishing is excellent, and the pricing feels fair for such premium jewellery. This has become my go-to store for special occasions.</p>
+</div>
+
+<div class="review1">
+  <div class="user">
+    <img src="/images/man.png">
+    <h3>Rohan T.</h3>
+  </div>
+  <p>I purchased a ring and was impressed by the attention to detail and overall finish. It looks classy, feels comfortable to wear, and I constantly receive compliments whenever I wear it. Highly recommended.</p>
+</div>
+</div>
+</div>
+
+<div class="page5">
+<div class="footerBorder">
+<div class="footerDetails">
+  <h1>Sri Anandha Jewelers</h1>
+</div>
+<p class="footerPara">Timeless designs crafted with elegance and care.</p>
+
+<div class="websiteDetails">
+  <div class="detail1">
+    <p>Get to Know</p>
+    <p>About Us</p>
+    <p>Press</p>
+    <p>Blogs</p>
+    <p>Careers</p>
+    <p>Contact Us</p>
+    <p>Corporate Governance</p>
+  </div>
+
+  <div class="detail1">
+    <p>Customer Service</p>
+    <p>7 Days Return Policy</p>
+    <p>Lifetime Exchange & Buyback</p>
+    <p>Privacy Policy</p>
+    <p>Terms & Conditions</p>
+    <p>FAQ's</p>
+  </div>
+
+  <div class="detail1">
+    <p>Know your Jewelery</p>
+    <p>Diamond Guide</p>
+    <p>Gold Guide</p>
+  </div>
+
+
+  <div class="detail1">
+    <p>Contact Us</p>
+    <p>1800-2651801</p>
+    <p>care@anandhajewellery.co.in</p>
+    <p>enquiries@anandhajewellery.co.in</p>
+  </div>
+
+  <div class="detail1">
+    <p>Registered Office</p>
+    <p>Sri Anandha Jewellery</p>
+    <p>No. 24, 2nd Floor</p>
+    <p>Main Road, Anna NAgar West,</p>
+    <p>Chennai-600040</p>
+    <p>Tamil Nadu, India</p>
+  </div>
+</div>
+
+<div class="followFooter">
+  <h2>Follow us on</h2>
+</div>
+<div class="socialMediaCon">
+  <div class="socialMedia">
+  <i class="fa-brands fa-facebook"></i>
+  <i class="fa-brands fa-youtube"></i>
+  <i class="fa-brands fa-pinterest"></i>
+  <i class="fa-brands fa-instagram"></i>
+  <i class="fa-brands fa-x-twitter"></i>
+</div>
+</div>
+<div class="finalFooter">
+  <p>© 2026 Sri Anandha Jewelers</p>
+</div>
+</div>
+</div>
+<script src="https://kit.fontawesome.com/5bc145c9cb.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
